@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="8" hostname="HPDA0017" name="TimelineTab" tests="40" time="420.465" timestamp="2 Nov 2018 09:29:01 GMT">
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step02_Get_Student_Information_From_Database_C2000" time="3.281"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step03_Login_To_KU_Portal_Admin_Url_And_Change_Password_For_Student" time="34.19"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step04_Login_To_Payment_Center_And_Make_Payment" time="107.445"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step05_verify_Payment_In_Payment_Center_DB" time="6.332"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step06_Verify_Payment_In_KUPortal" time="49.212">
+    <failure message="Assertion failed: payment amount not matched expected [$1.56] but found [$1.48]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: Assertion failed: payment amount not matched expected [$1.56] but found [$1.48]
+	at com.qait.KUPortal.keyword.kupAccountHistoryPageActions.verifyPaymentDetailst(kupAccountHistoryPageActions.java:105)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step06_Verify_Payment_In_KUPortal(Student_Payment_With_Payment_Center_Portal.java:152)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase> <!-- Step06_Verify_Payment_In_KUPortal -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step07_Verify_Email" time="3.352">
+    <failure message="expected [9/18/2018 5:00:00 AM Eastern Standard Time] but found [9/18/2018 5:00:10 AM Eastern Standard Time]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: expected [9/18/2018 5:00:00 AM Eastern Standard Time] but found [9/18/2018 5:00:10 AM Eastern Standard Time]
+	at com.qait.PaymentCenter.keyword.MakeAPaymentPageActions.verifyEmailDetails(MakeAPaymentPageActions.java:153)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step07_Verify_Email(Student_Payment_With_Payment_Center_Portal.java:160)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase> <!-- Step07_Verify_Email -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step08_Verify_Payment_Transaction_In_CVue_Database" time="3.04"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step02_Get_Student_Information_From_Database_C2000" time="2.944"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step03_Login_To_KU_Portal_Admin_Url_And_Change_Password_For_Student" time="34.401"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step04_Login_To_Payment_Center_And_Make_Payment" time="150.54"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step05_verify_Payment_In_Payment_Center_DB" time="5.964"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step06_Verify_Payment_In_KUPortal" time="68.535">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.qait.KUPortal.keyword.kupAccountHistoryPageActions.verifyAccountDetails(kupAccountHistoryPageActions.java:79)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step06_Verify_Payment_In_KUPortal(Student_Payment_With_Payment_Center_Portal.java:149)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase> <!-- Step06_Verify_Payment_In_KUPortal -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step07_Verify_Email" time="2.97">
+    <failure message="expected [9/18/2018 5:03:54 AM Eastern Standard Time] but found [9/18/2018 5:05:34 AM Eastern Standard Time]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: expected [9/18/2018 5:03:54 AM Eastern Standard Time] but found [9/18/2018 5:05:34 AM Eastern Standard Time]
+	at com.qait.PaymentCenter.keyword.MakeAPaymentPageActions.verifyEmailDetails(MakeAPaymentPageActions.java:153)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step07_Verify_Email(Student_Payment_With_Payment_Center_Portal.java:160)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase> <!-- Step07_Verify_Email -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step08_Verify_Payment_Transaction_In_CVue_Database" time="2.978"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step02_Get_Student_Information_From_Database_C2000" time="2.95"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step03_Login_To_KU_Portal_Admin_Url_And_Change_Password_For_Student" time="34.104"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step04_Login_To_Payment_Center_And_Make_Payment" time="107.998"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step05_verify_Payment_In_Payment_Center_DB" time="5.933"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step06_Verify_Payment_In_KUPortal" time="50.125">
+    <failure message="Assertion failed: description not matched-Tuition expected [true] but found [false]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: Assertion failed: description not matched-Tuition expected [true] but found [false]
+	at com.qait.KUPortal.keyword.kupAccountHistoryPageActions.verifyPaymentDetailst(kupAccountHistoryPageActions.java:98)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step06_Verify_Payment_In_KUPortal(Student_Payment_With_Payment_Center_Portal.java:152)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase> <!-- Step06_Verify_Payment_In_KUPortal -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step07_Verify_Email" time="2.957">
+    <failure message="expected [9/18/2018 5:08:04 AM Eastern Standard Time] but found [9/18/2018 5:09:27 AM Eastern Standard Time]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: expected [9/18/2018 5:08:04 AM Eastern Standard Time] but found [9/18/2018 5:09:27 AM Eastern Standard Time]
+	at com.qait.PaymentCenter.keyword.MakeAPaymentPageActions.verifyEmailDetails(MakeAPaymentPageActions.java:153)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step07_Verify_Email(Student_Payment_With_Payment_Center_Portal.java:160)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase> <!-- Step07_Verify_Email -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step08_Verify_Payment_Transaction_In_CVue_Database" time="2.987"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step02_Get_Student_Information_From_Database_C2000" time="3.005"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step03_Login_To_KU_Portal_Admin_Url_And_Change_Password_For_Student" time="34.629"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step04_Login_To_Payment_Center_And_Make_Payment" time="108.078"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step05_verify_Payment_In_Payment_Center_DB" time="5.945"/>
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step06_Verify_Payment_In_KUPortal" time="62.375">
+    <failure message="Assertion failed: description not matched-Tuition expected [true] but found [false]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: Assertion failed: description not matched-Tuition expected [true] but found [false]
+	at com.qait.KUPortal.keyword.kupAccountHistoryPageActions.verifyPaymentDetailst(kupAccountHistoryPageActions.java:98)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step06_Verify_Payment_In_KUPortal(Student_Payment_With_Payment_Center_Portal.java:152)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase> <!-- Step06_Verify_Payment_In_KUPortal -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step07_Verify_Email" time="2.943">
+    <failure message="expected [9/18/2018 5:11:36 AM Eastern Standard Time] but found [9/18/2018 5:12:12 AM Eastern Standard Time]" type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError: expected [9/18/2018 5:11:36 AM Eastern Standard Time] but found [9/18/2018 5:12:12 AM Eastern Standard Time]
+	at com.qait.PaymentCenter.keyword.MakeAPaymentPageActions.verifyEmailDetails(MakeAPaymentPageActions.java:153)
+	at com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal.Step07_Verify_Email(Student_Payment_With_Payment_Center_Portal.java:160)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase> <!-- Step07_Verify_Email -->
+  <testcase classname="com.qait.PaymentCenter.test.Student_Payment_With_Payment_Center_Portal" name="Step08_Verify_Payment_Transaction_In_CVue_Database" time="3.007"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step01_Launch_CIMS_Application" time="61.758"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step02_Navigate_To_Timeline_Tab_And_Verify_That_AllSubTabs_Displayed" time="5.17"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step03_Verify_message_is_displayed_when_mandatory_is_not_filled" time="4.134"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step04__Navigate_To_createNewTimeline_And_Create_New_Timeline" time="18.462"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step05__Verify_Textbook_Information" time="15.84"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step06__Edit_Timeline_Details" time="260.429"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step06__Verify_Edited_Timeline_Data" time="7.507"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step07__Verify_User_has_Landed_To_details_Page_After_Clicking_To_Details_Link" time="2.291"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step08__Verify_the_Stored_Details_With_Page_Details" time="2.61"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step09__Delete_Timeline_Details" time="11.347"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step10__Verify_User_IsNot_Able_To_Search_Deleted_Data" time="20.524"/>
+  <testcase classname="com.qait.CIMS.test.CIMSTimelinePageTest" name="Step11__Verify_The_Content_Under_Import_Timeline_Data" time="3.77"/>
+</testsuite>
